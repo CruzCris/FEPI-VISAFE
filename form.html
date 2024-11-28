@@ -63,7 +63,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#">Iniciar Sesion</a></li>
+          <li><a href="login.html">Iniciar Sesion</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -79,7 +79,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li class="current">Formulario</li>
           </ol>
         </div>
@@ -98,10 +98,10 @@
       <div class="container">
         <div class="form-group">
           <h2 for="codigoSeguimiento">Código de Seguimiento:</h2>
-          <input type="text" class="form-control" id="codigoSeguimiento"
-            placeholder="Introduce tu código de seguimiento" required>
+          <input type="text" class="form-control col-md-2" id="codigoSeguimiento"
+            placeholder="Código" required>
         </div>
-        <button type="submit" class="btn btn-success">Enviar</button>
+        <button type="submit" class="botones">Enviar<i class="bi bi-arrow-right"></i></button>
 
 
         <br><br><br><br>
@@ -109,9 +109,10 @@
 
         <!-- Botones de selección centrados -->
         <div class="form-group d-flex justify-content-center mb-4">
-          <button type="button" id="btnAnonimo" class="btn btn-outline-primary mx-2"
+          <button type="button" id="btnAnonimo" class="botones"
             onclick="toggleForm('anonimo')">Anónimo</button>
-          <button type="button" id="btnConDatos" class="btn btn-outline-primary mx-2"
+          &nbsp;&nbsp;
+          <button type="button" id="btnConDatos" class="botones"
             onclick="toggleForm('conDatos')">Con Datos</button>
         </div>
 
@@ -285,7 +286,7 @@
         </div>
 
         <!-- Botón para enviar el formulario -->
-        <button type="submit" class="btn btn-primary">Enviar Denuncia</button>
+        <button type="submit" class="botones">Enviar Denuncia<i class="bi bi-arrow-right"></i></button>
       </div>
 
     </section>
