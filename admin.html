@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>VISAFE - ESCOM IPN</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/icono.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/tabla.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <!-- Data Table CSS -->
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css'>
+  <!-- Font Awesome CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+</head>
+
+<body class="starter-page-page">
+
+   <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/visafe.png" alt="logo">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+            <li><a href="index.html" class="botones">Cerrar sesión</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+<main class="main">
+
+ <!-- Titulo -->
+ <div class="page-title dark-background" data-aos="fade">
+  <br><br><br>
+  <nav class="breadcrumbs">
+    <div class="container">
+      <ol>
+        <li><a  class="ruta">Administrador</a></li>
+        
+      </ol>
+    </div>
+  </nav>
+</div>
+    
+<main id="main" class="main">
+
+<div class="container admin" data-aos="fade-up" data-aos-delay="200">
+    
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre del acusado</th>
+                <th>Nombre de la victima</th>
+                <th>Tipo de violencia</th>
+                <th>Evidencia</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Cristian</td>
+            <td>David</td>
+            <td>Chantajes</td>
+            <td>No</td>
+            <td>2024-12-04</td>
+            <td>En proceso</td>
+            <td><a href="detalles.html" class="btn btn-success btn-sm">Ver detalles</a>
+                    <button class="btn btn-danger btn-sm">Eliminar</button></td>
+            
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>Pepe</td>
+                <td>Ridiculizar en público</td>
+                <td><a href="">Archivo</a></td>
+                <td>2024-12-04</td>
+                <td>Finalizado</td>
+                <td><button class="btn btn-success btn-sm">Ver detalles</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button></td>
+            
+            </tr>
+            
+        </tbody>
+        
+    </table>
+</div>
+
+  </main><!-- End #main -->
+    
+
+
+  </main>
+
+
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src='https://code.jquery.com/jquery-3.7.0.js'></script>
+  <!-- Data Table JS -->
+  <script src='https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js'></script>
+  <script src='https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js'></script>
+  <script src='https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js'></script>
+        <!-- Script JS -->
+        <script src="assets/js/script.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/js/validar.js"></script>
+
+</body>
+
+</html>

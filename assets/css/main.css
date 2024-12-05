@@ -41,7 +41,14 @@
   scroll-behavior: smooth;
 }
 
-
+.login {
+  margin-bottom: -5rem;
+  margin-top: -5rem;
+}
+.admin {
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+}
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -53,7 +60,15 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
-
+.ruta {
+  color: #7FFFBF;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.ruta:hover {
+  color: color-mix(in srgb, #7FFFBF, transparent 25%);
+  text-decoration: none;
+}
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
   text-decoration: none;
