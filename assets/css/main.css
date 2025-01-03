@@ -9,7 +9,7 @@
   --background-color: #ffffff; 
   --default-color: #444444; 
   --heading-color: #040677; 
-  --accent-color: #800040;
+  --accent-color: #770080;
   --surface-color: #ffffff; 
   --contrast-color: #ffffff; 
 }
@@ -20,7 +20,7 @@
   --nav-mobile-background-color: #ffffff; 
   --nav-dropdown-background-color: #ffffff; 
   --nav-dropdown-color: #444444; 
-  --nav-dropdown-hover-color: #800040; 
+  --nav-dropdown-hover-color: #770080; 
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .dark-background {
-  --background-color: #800040;
+  --background-color: #770080;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #0c0091;
@@ -169,7 +169,7 @@ h6 {
 
 
 .scrolled .header {
-  --background-color: #800040;
+  --background-color: #770080;
 }
 
 
